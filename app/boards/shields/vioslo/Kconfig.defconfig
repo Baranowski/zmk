@@ -1,17 +1,23 @@
 if SHIELD_VIOSLO_LEFT
-    config ZMK_KEYBOARD_NAME
-        default "Vioslo Left"
 
-    config ZMK_SPLIT_BLE_ROLE_CENTRAL
-        default y
+config ZMK_KEYBOARD_NAME
+    default "Vioslo Left"
+
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
+    default y
+
 endif
 
 if SHIELD_VIOSLO_RIGHT
-    config ZMK_KEYBOARD_NAME
-        default "Vioslo Right"
+
+config ZMK_KEYBOARD_NAME
+    default "Vioslo Right"
+
 endif
 
 if SHIELD_VIOSLO_LEFT || SHIELD_VIOSLO_RIGHT
-    config ZMK_SPLIT
-        default y
+
+config ZMK_SPLIT
+    default y
+
 endif
