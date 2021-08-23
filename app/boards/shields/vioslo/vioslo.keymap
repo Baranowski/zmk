@@ -65,6 +65,16 @@
                                                     &kp LGUI    &kp LCTRL   &kp LALT        &kp LSHFT  &tog 4 &tog 4
             >;
         };
+
+        empty_layer {
+            bindings = <
+        &none    &none        &none          &none       &none       &none    
+        &none    &none        &none          &none       &none       &none    
+&none   &none    &none        &none          &none       &none       &none       &none    
+&none   &none    &none        &none          &none       &none       &none       &none 
+                  &none &none &none          &none &none &none
+            >;
+        };
 	};
 
     combos {
@@ -88,6 +98,12 @@
             key-positions = <20 21 22 23>;
             bindings = <&bt BT_CLR>;
             layers = <4>;
+        };
+
+        combo_empty_layer {
+            timeout-ms = <50>;
+            key-positions = <6 7 8>;
+            bindings = <&tog 5>;
         };
     };
 };
