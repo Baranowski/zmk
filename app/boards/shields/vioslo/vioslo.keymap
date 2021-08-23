@@ -38,8 +38,8 @@
 
         special_layer {
             bindings = <
-            &kp TAB     &kp PG_UP   &kp GRAVE                                                       &kp PERCENT &kp CARET   &kp BSLH
-            &kp INS     &kp PG_DN   &kp DQT                                                         &kp AT      &kp HASH    &kp DOLLAR
+            &kp INS     &kp PG_UP   &kp GRAVE                                                       &kp PERCENT &kp CARET   &kp BSLH
+            &kp TAB     &kp PG_DN   &kp DQT                                                         &kp AT      &kp HASH    &kp DOLLAR
 &kp QMARK   &kp SEMI    &kp COLON   &kp RET                                                         &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT
 &kp EXCL    &kp LBRC    &kp RBRC    &kp SQT                                                         &kp BSPC    &kp HOME    &kp END     &kp DEL
                                 &kp LGUI    &kp LCTRL   &hs LALT RALT   &none     &kp LSHFT &trans
