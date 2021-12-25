@@ -7,15 +7,29 @@
 
 		default_layer {
 			bindings = <
-&kp LGUI    &kp LCTRL   &kp LALT         &none   &kp LSHFT  &kp TAB
-      &none                                             &kp ESC
+&kp LGUI    &kp LCTRL   &kp GUI                                 &mo 1       &kp LSHFT   &kp TAB
+&none                                                                                   &kp ESC
 
-        &kp R   &kp Q  &kp G         &kp B   &kp Y   &kp X
-&none   &kp C   &kp E  &kp D         &kp U   &kp N   &kp O  &kp M
-        &kp T   &kp A  &kp SPACE     &kp H   &kp K   &kp L
-&kp Z   &kp F   &kp I  &kp V         &kp S   &kp J   &kp P  &kp W
-&none   &none   &none  &none         &none   &none   &none  &none
-&none   &none   &none  &none         &none   &none   &none  &none
+            &kp R       &kp Q       &kp RET         &kp B       &kp Y       &kp X
+&kp G       &kp C       &kp D       &kp SPACE       &kp U       &kp N       &kp O       &kp M
+            &kp T       &kp A       &kp E           &kp H       &kp K       &kp L
+&kp Z       &kp F       &kp I       &kp V           &kp S       &kp J       &kp P       &kp W
+&kp COMMA   &kp LPAR    &kp RPAR    &kp MINUS       &kp SLASH   &kp STAR    &kp TILDE   &kp PIPE
+&kp DOT     &kp LT      &kp GT      &kp BSPC        &kp UNDER   &kp QMARK   &kp EXCL    &kp AMPS
+			>;
+		};
+
+		num_layer {
+			bindings = <
+&trans      &trans      &trans                                  &trans      &trans      &trans
+&trans                                                                                  &trans
+
+            &kp SQT     &kp SEMI    &trans          &kp N7      &kp N8      &kp N9
+&kp DOLLAR  &kp DQT     &kp EQUAL   &trans          &kp N4      &kp N5      &kp N6      &kp CARET
+            &kp GRAVE   &kp COLON   &kp PG_UP       &kp N1      &kp N2      &kp N3
+&kp HASH    &none       &none       &kp PG_DN       &kp N0      &kp PLUS    &kp BSLH    &kp PERCENT
+&kp AT      &kp LBKT    &kp RBKT    &kp DEL         &kp LEFT    &kp UP      &kp RIGHT   &none
+&none       &kp LBRC    &kp RBRC    &trans          &kp HOME    &kp DOWN    &kp END     &kp INS
 			>;
 		};
 
