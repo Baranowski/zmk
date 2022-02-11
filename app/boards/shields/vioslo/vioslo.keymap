@@ -10,12 +10,12 @@
 &kp LGUI    &kp LCTRL   &kp GUI                                 &mo 1       &kp LSHFT   &kp TAB
 &none                                                                                   &kp ESC
 
-            &kp R       &kp Q       &kp RET         &kp B       &kp Y       &kp X
-&kp G       &kp C       &kp E       &kp SPACE       &kp U       &kp N       &kp O       &kp M
-            &kp T       &kp A       &kp D           &kp H       &kp K       &kp L
-&kp Z       &kp F       &kp I       &kp V           &kp S       &kp J       &kp P       &kp W
-&kp COMMA   &kp LPAR    &kp RPAR    &kp MINUS       &kp SLASH   &kp STAR    &kp TILDE   &kp PIPE
-&kp DOT     &kp LT      &kp GT      &kp BSPC        &kp UNDER   &kp QMARK   &kp EXCL    &kp AMPS
+            &kp D       &kp T       &kp RET         &kp S       &kp Y       &kp P
+&kp A       &kp E       &kp I       &kp SPACE       &kp U       &kp N       &kp O       &kp M
+            &kp C       &kp R       &kp F           &kp H       &kp K       &kp L
+&kp Q       &kp Z       &kp G       &kp V           &kp B       &kp J       &kp W       &kp X
+&kp COMMA   &kp LPAR    &kp RPAR    &kp MINUS       &kp EQUAL   &kp COLON   &kp SEMI    &kp STAR
+&kp DOT     &kp LT      &kp GT      &kp BSPC        &kp UNDER   &kp QMARK   &kp EXCL    &kp SLASH
 			>;
 		};
 
@@ -24,12 +24,12 @@
 &trans      &trans      &trans                                  &trans      &trans      &trans
 &trans                                                                                  &trans
 
-            &kp SQT     &kp SEMI    &trans          &kp N7      &kp N8      &kp N9
-&kp DOLLAR  &kp DQT     &kp EQUAL   &trans          &kp N4      &kp N5      &kp N6      &kp CARET
-            &kp GRAVE   &kp COLON   &kp PG_UP       &kp N1      &kp N2      &kp N3
-&kp HASH    &none       &none       &kp PG_DN       &kp N0      &kp PLUS    &kp BSLH    &kp PERCENT
-&kp AT      &kp LBKT    &kp RBKT    &kp DEL         &kp LEFT    &kp UP      &kp RIGHT   &none
-&none       &kp LBRC    &kp RBRC    &trans          &kp HOME    &kp DOWN    &kp END     &kp INS
+            &kp LBRC    &kp RBRC    &trans          &kp N7      &kp N8      &kp N9
+&kp CARET   &kp LBKT    &kp RBKT    &trans          &kp N4      &kp N5      &kp N6      &kp DOLLAR
+            &kp SQT     &kp DQT     &kp PG_UP       &kp N1      &kp N2      &kp N3
+&kp HASH    &kp GRAVE   &kp TILDE   &kp PG_DN       &kp N0      &kp PLUS    &kp BSLH    &kp PERCENT
+&kp AT      &kp PIPE    &kp AMPS    &kp DEL         &kp LEFT    &kp UP      &kp RIGHT   &none
+&none       &tog 2      &none       &trans          &kp HOME    &kp DOWN    &kp END     &kp INS
 			>;
 		};
 
@@ -38,12 +38,13 @@
 &none       &none       &none                                   &none       &none       &none
 &none                                                                                   &tog 2
 
-            &none       &none       &none           &none       &none       &none
-&none       &none       &none       &none           &none       &none       &none       &none
-            &none       &none       &none           &none       &none       &none
+            &none       &none       &none           &kp C_VOL_UP &kp C_BRI_UP &none
+&none       &none       &none       &none           &kp C_VOL_DN &kp C_BRI_DN &none       &none
+            &none       &none       &none           &kp C_PREV  &kp C_PP    &kp C_FF
 &none       &none       &none       &none           &none       &none       &none       &none      
-&none       &none       &none       &none           &none       &none       &none       &none
-&none       &none       &none       &bt BT_CLR      &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3
+&bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &none       &none       &none       &none
+&none       &none       &none       &bt BT_CLR      &none       &none       &none       &none
+
 			>;
 		};
 
