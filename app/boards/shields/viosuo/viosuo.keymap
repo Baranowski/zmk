@@ -7,7 +7,7 @@
 
 		default_layer {
 			bindings = <
-&kp LGUI    &kp LCTRL   &kp GUI                                 &mo 1       &kp LSHFT   &kp TAB
+&kp LALT    &kp LCTRL   &kp LGUI                                &mo 1       &kp LSHFT   &kp TAB
 &none                                                                                   &kp ESC
 
             &kp D       &kp T       &kp RET         &kp S       &kp Y       &kp P
