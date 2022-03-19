@@ -1,0 +1,5 @@
+config SHIELD_VIOSLO_LEFT
+    def_bool $(shields_list_contains,viosuo_left)
+
+config SHIELD_VIOSLO_RIGHT
+    def_bool $(shields_list_contains,viosuo_right)
